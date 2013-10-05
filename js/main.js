@@ -5,6 +5,13 @@
 
 $(document).ready(function(){
 
+	$("button").on("click", function(){
+		$(".booboo").html(
+			$("textarea").val()
+		);
+
+	});
+
 	$("li").on("click", function(){
 		//(this) finds what is clicked
 
